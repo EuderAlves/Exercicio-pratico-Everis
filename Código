@@ -1,0 +1,17 @@
+fun main() {
+    var t:Int?
+    var x:Int? = null
+    var y:Int? = 10
+
+    t = x?:y ?: -1
+
+    if(x == null) {
+        println("Devido a um dos numeros serem Nulos ocorreu um erro")
+    } else if(y == null) {
+        println("Devido a um dos numeros serem Nulos ocorreu um erro")
+    } else {
+        println("Por ter 2 numeros Inteiro a multiplicação dos mesmo é = ")
+        https://github.com/EuderAlves/Exercicio-pratico-Everis.git  println(x * y)
+    }
+
+}
